@@ -1,0 +1,20 @@
+name: pydata
+channels:
+    - defaults
+
+dependencies:
+    - python=3.12.2
+    - pip
+
+    - numpy=1.26.4
+    - scipy=1.15.0
+    - pandas=2.2.3
+    - scikit-learn=1.6.1
+    - xgboost=2.1.3
+    - lightgbm=4.5.0
+    - plotly=5.24.1
+    - matplotlib=3.10.0
+    - rich
+    - kaleido
+
+    - fastapi=0.115.7

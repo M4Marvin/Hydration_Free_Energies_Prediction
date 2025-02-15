@@ -15,6 +15,5 @@ dependencies:
     - plotly=5.24.1
     - matplotlib=3.10.0
     - rich
-    - kaleido
 
     - fastapi=0.115.7

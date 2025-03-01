@@ -34,6 +34,8 @@ Ensure the following are installed. It is highly recommended to use the provided
 
 ## Environment Setup (Recommended)
 
+[Miniforge3)](https://github.com/conda-forge/miniforge/)
+
 1. **Using `conda`:**
 
     Conda installation using miniforge -

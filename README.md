@@ -36,6 +36,18 @@ Ensure the following are installed. It is highly recommended to use the provided
 
 1. **Using `conda`:**
 
+    Conda installation using miniforge -
+
+    ```bash
+
+    curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh"
+
+    bash Miniforge3-$(uname)-$(uname -m).sh
+    ```
+
+    Windows -
+    [Download Miniforge3 for Windows (64-bit)](https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Windows-x86_64.exe)
+
     It is highly recommended to use `conda` to create an environment with the specified dependencies. This ensures that you have the correct versions of all the required packages.
 
     - Create the environment from the `environment.yml` file:
@@ -47,7 +59,7 @@ Ensure the following are installed. It is highly recommended to use the provided
     - Activate the environment:
 
         ```bash
-        conda activate pydata
+        conda activate scis
         ```
 
 2. **Alternative: Using `pip` (Not Recommended):**

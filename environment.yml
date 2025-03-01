@@ -1,4 +1,4 @@
-name: pydata
+name: scis
 channels:
     - defaults
 
